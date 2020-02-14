@@ -1,0 +1,21 @@
+.footer-container {
+  margin-left: 198px;
+  margin-right: 200px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  height: 129px;
+}
+
+footer {
+  display: block;
+}
+
+.ul-footer {
+  list-style-type: none;
+}
+
+.ul-footer > li > a {
+  color: tomato;
+}
