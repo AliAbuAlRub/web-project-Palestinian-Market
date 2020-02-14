@@ -1,0 +1,201 @@
+/* ********************************************************************Edit Modal ******************************************************************** */
+
+/* The Modal (background) */
+.edit-category-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.1); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.edit-category-modal-content {
+  background-color: #fefefe;
+  margin: 50px auto auto auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 566px;
+  height: 430px;
+  border-radius: 5px;
+}
+
+div.edit-category-modal-middle {
+  height: 266px;
+}
+
+/* The Close Button */
+/* .close-new-category-modal {
+      position: absolute;
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      top: 160px;
+      right: 685px;
+    }
+    
+    .close-new-category-modal:hover,
+    .close-new-category-modal:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    } */
+
+hr.hr-edit-category-modal {
+  display: block;
+  background-color: gray;
+  width: 60%;
+  margin-top: 24px;
+}
+
+.label-edit-category-modal {
+  display: block;
+  margin-top: 33px;
+}
+
+.cancel-button-edit-category {
+  background-color: #fff;
+  border-color: #17a2b8d1;
+  color: #17a2b8d1;
+  border-radius: 5px;
+  height: 35px;
+  width: 63px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.cancel-button-edit-category:hover {
+  background-color: #17a2b8d1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-button-edit-category {
+  background-color: #17a2b8d1;
+  border-color: #17a2b8d1;
+  color: #fff;
+  border-radius: 5px;
+  height: 35px;
+  width: 58px;
+  font-weight: bold;
+}
+
+.edit-button-edit-category:hover {
+  background-color: #25656e;
+  border-color: #25656e;
+  cursor: pointer;
+}
+
+.add-new-img-category {
+    margin-top: 10px;
+}
+
+/* ******************************************************************************************************************** */
+
+/* continue without saving modal */
+
+/* The Modal (background) */
+.continue-without-saving-edit-category-modal-class {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.1); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.continue-without-saving-edit-category-modal-content {
+  background-color: #fefefe;
+  margin: 10% auto auto auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 537px;
+  height: 221px;
+  border-radius: 5px;
+}
+
+.yes-button-continue-without-saving-category-edit {
+  background-color: #fff;
+  border-color: #17a2b8d1;
+  color: #17a2b8d1;
+  border-radius: 5px;
+  height: 35px;
+  width: 63px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.yes-button-continue-without-saving-category-edit:hover {
+  border-color: #ff0101;
+  color: #ff0101;
+  cursor: pointer;
+}
+
+.no-button-continue-without-saving-category-edit {
+  background-color: #17a2b8d1;
+  border-color: #17a2b8d1;
+  color: #fff;
+  border-radius: 5px;
+  height: 35px;
+  width: 58px;
+  font-weight: bold;
+}
+
+.no-button-continue-without-saving-category-edit:hover {
+  background-color: #25656e;
+  border-color: #25656e;
+  cursor: pointer;
+}
+
+/* ***********************************************************Response Message Modal****************************************************************** */
+
+/* The Modal (background) */
+.response-message-edit-category-modal-class {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 720px;
+  top: 668px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Modal Content */
+.response-message-edit-category-modal-content {
+  background-color: #ffffff;
+  margin: 10% auto auto auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 390px;
+  height: 25px;
+  border-left-width: 8px;
+  border-left-style: solid;
+  border-left-color: #6ac259;
+  border-radius: 4px;
+}
+
+/* The Close Button */
+.response-message-edit-category-modal-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 3px;
+}
+
+.response-message-edit-category-modal-close:hover,
+.response-message-edit-category-modal-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
