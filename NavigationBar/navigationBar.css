@@ -1,0 +1,73 @@
+/*@font-face {*/
+/*    src: url(../fonts/goodtimesrg.ttf);*/
+/*    font-family: karate;*/
+/*}*/
+
+.topNavBarLink {
+  text-decoration: none;
+}
+
+.topNavBarImg {
+  margin-bottom: -5px;
+  width: 40px;
+  height: 40px;
+}
+
+.topNavBarSpan {
+  font-size: 45px;
+  color: white;
+  margin-left: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+.navigationBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #47484B;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.navigationBar > a:not(:first-child) {
+  float: right;
+}
+
+.navigationBar > a:not(:first-child) {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.navigationBar > a:hover {
+  background-color: transparent;
+}
+
+a > span:hover {
+background-color: transparent;
+}
+
+a > img:hover {
+  background-color: transparent;
+}
+
+span#no-of-cart-items {
+background-color: #d32f2f;
+margin-left: 9px;
+display: inline-block;
+min-width: 30px;
+border-radius: 10px;
+text-align: center;
+}
+
+.top-navigationbar-link:hover, .active-top-navigationbar {
+background-color: black !important;
+}
+
+.top-navigationbar-link {
+  font-family: Arial, Helvetica, sans-serif;
+}
