@@ -1,0 +1,36 @@
+.search-bar-container {
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: -22px;
+}
+
+.search-text-input-class {
+  width: 20%;
+  border-radius: 10px;
+  border: 2px solid #47484B;
+  height: 27px;
+  outline: none;
+  padding: 3px;
+}
+
+.search-icon-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: absolute;
+  top: 85px;
+  right: 759px;
+  width: 36px;
+  direction: ltr;
+  height: 33px;
+  cursor: pointer;
+}
+
+#search-icon:hover {
+  color: darkgreen;
+}
+
+#search-icon {
+  width: 20px;
+  height: 15px;
+}
