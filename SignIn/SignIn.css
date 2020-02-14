@@ -1,0 +1,101 @@
+.card {
+  height: auto;
+  min-height: 340px;
+  margin-top: 100px;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 700px;
+  bottom: 160px;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("../assets/background.jpg");
+
+  min-height: 980px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  margin-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.username {
+  margin-top: 30px;
+}
+
+.card h3 {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.usericonImg img {
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+
+.passwordiconImg img {
+  margin-left: 10px;
+  margin-bottom: -11px;
+}
+
+.signInBtn {
+  color: black;
+  background-color: yellow;
+  width: 240px;
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.signInBtn:hover {
+  color: black;
+  background-color: white;
+}
+
+.links {
+  margin-top: 20px;
+  margin-left: 15px;
+  color: white;
+  text-align: center;
+}
+
+.links a {
+  margin-left: 4px;
+  color: tomato;
+  cursor: pointer;
+}
+
+.links a:hover {
+  color: rgb(245, 40, 4);
+  text-decoration: underline;
+}
+
+.links button {
+  margin-left: 4px;
+  color: tomato;
+  cursor: pointer;
+}
+
+.links button:hover {
+  color: rgb(245, 40, 4);
+  text-decoration: underline;
+}
+/*********************************************************************/
+/* 
+input:focus {
+  outline: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+} */
