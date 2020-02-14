@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head> </head>
+  <body>
+    <nav class="bottomNavigationBar">
+      <a href="../Home/home.php" class="bottom-nav-bar">Home</a>
+      <a href="../Products/viewProducts.php" class="bottom-nav-bar">Products</a>
+      <a href="../AboutUs/AboutUs.php" class="bottom-nav-bar">About Us</a>
+
+      <button class="add-new-item-button" title="Add New Product">
+        <img src="../assets/AddNewProduct.jpg" alt="Add New Product" />
+      </button>
+
+      <button class="add-new-category-button" title="Add New Category">
+        <img src="../assets/addnewCategory.png" alt="Add New Category" />
+      </button>
+
+      <script>
+        var xhttp = new XMLHttpRequest();
+
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            console.log(this.responseText, "asdfda");
+            if (this.responseText == "true") {
+              document.getElementsByClassName(
+                "add-new-item-button"
+              )[0].style.display = "block";
+
+              document.getElementsByClassName(
+                  "add-new-category-button"
+                )[0].style.display = "block";
+
+              if (!window.location.pathname.includes("/Products/viewProducts.php")) {
+                document.getElementsByClassName(
+                  "add-new-item-button"
+                )[0].style.display = "none";
+              }
+              
+              if(!window.location.pathname.includes("/Home/home.php")) {
+                document.getElementsByClassName(
+                  "add-new-category-button"
+                )[0].style.display = "none";
+              }
+              
+            } else {
+              console.log("else");
+              document.getElementsByClassName(
+                "add-new-item-button"
+              )[0].style.display = "none";
+
+              document.getElementsByClassName(
+                  "add-new-category-button"
+                )[0].style.display = "none";
+            }
+          }
+        };
+
+        xhttp.open("GET", "../isAdmin.php?isAdmin=false", true);
+        xhttp.send();
+
+      </script>
+    </nav>
+  </body>
+</html>

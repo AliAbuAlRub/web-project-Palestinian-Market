@@ -1,0 +1,75 @@
+.bottomNavigationBar {
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b0bec5;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 40px;
+  height: 50px;
+}
+
+.bottomNavigationBar > a {
+  float: left;
+}
+
+.bottomNavigationBar > a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+
+.bottomNavigationBar > a:hover {
+  color: white;
+}
+
+.add-new-item-button {
+  display: none;
+  background-color: transparent;
+  border: none;
+  float: right;
+  width: 85px;
+  outline: none;
+}
+
+.add-new-item-button > img{
+  width: 85px;
+  height: 40px;
+  margin-top: 5px;
+  outline: none;
+}
+
+.add-new-category-button {
+  display: none;
+  background-color: transparent;
+  border: none;
+  float: right;
+  width: 85px;
+  outline: none;
+}
+
+.add-new-category-button > img {
+  width: 48px;
+  height: 41px;
+  margin-top: 5px;
+  outline: none;
+} 
+
+.add-new-item-button:hover, .add-new-category-button:hover {
+  cursor: pointer;
+}
+
+.bottom-nav-bar {
+  font-family: Verdana, sans-serif;
+}
+
+.active-bottom-navigationbar {
+  border-bottom: 4px solid #47484B;
+}
