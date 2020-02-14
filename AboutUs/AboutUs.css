@@ -1,0 +1,7 @@
+.aboutus-container {
+    color: black;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #fafafa;
+    z-index: -1;
+}
