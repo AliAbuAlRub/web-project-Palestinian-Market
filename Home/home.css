@@ -1,0 +1,59 @@
+.home-container {
+  width: 75%;
+  margin: 80px 250px 10px 241px;
+}
+
+.home-content {
+  position: relative;
+  margin-top: 30px;
+  height: 265px;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+
+.home-content:hover .edit-category-button {
+  display: block;
+}
+
+.category-home-img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 10px;
+}
+
+.home-content > a:hover {
+  outline: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+}
+
+.category-name {
+  position: absolute;
+  top: -1%;
+  font-weight: bold;
+  background-color: black;
+  color: #eaea61;
+  left: 3%;
+  min-width: 42px;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 26px;
+}
+
+.edit-category-button {
+  display: none;
+  outline: none;
+  width: 36px;
+  height: 36px;
+  float: right;
+  position: absolute;
+  right: 1%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-category-icon {
+  width: 36px;
+  height: 36px;
+}
