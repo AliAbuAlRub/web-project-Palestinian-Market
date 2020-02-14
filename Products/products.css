@@ -1,0 +1,113 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.1); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto auto auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+  height: 120px;
+}
+
+.modal-content > a:hover {
+  color: #d32f2f;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* *********************************** */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  height: 700px;
+  overflow: auto;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 14px;
+  margin-left: 91px;
+  margin-bottom: 20px;
+  border: 3px ridge;
+  width: 250px;
+  font-family: cursive, sans-serif;
+}
+
+.productContainer > img {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.productContent > h4 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.productContent > button {
+  margin-left: 25px;
+  margin-bottom: 5px;
+  background-color: default;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  height: 30px;
+  outline: none;
+}
+
+.productContent > button:hover {
+  background-color: #d32f2f;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.price {
+  text-align: center;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  margin: 0px 90px 3px 90px;
+  border-radius: 5px;
+}
+
+.productImg {
+  border-style: ridge;
+  background-color: #fff;
+}
+
+/* .active-bottom-navigationbar {
+  color: white !important;
+} */
