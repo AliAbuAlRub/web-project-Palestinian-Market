@@ -1,0 +1,254 @@
+/* ********************************************************************Edit Modal ******************************************************************** */
+
+/* The Modal (background) */
+.edit-product-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.1); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.edit-product-modal-content {
+  background-color: #fefefe;
+  margin: 50px auto auto auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 604px;
+  height: 477px;
+  border-radius: 5px;
+}
+
+div.edit-product-modal-middle {
+  overflow-y: scroll;
+  height: 300px;
+}
+
+/* The Close Button */
+/* .close-new-product-modal {
+    position: absolute;
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    top: 160px;
+    right: 685px;
+  }
+  
+  .close-new-product-modal:hover,
+  .close-new-product-modal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+
+hr.hr-edit-product-modal {
+  display: block;
+  background-color: gray;
+  width: 60%;
+  margin-top: 24px;
+}
+
+.label-edit-product-modal {
+  display: block;
+  margin-top: 24px;
+}
+
+.label-add-new-images-edit-modal {
+  display: block;
+  margin-top: 24px;
+}
+
+.input-edit-product-name-class,
+.textarea-edit-product-name-class,
+.file-input-edit-product-name-class {
+  margin-top: 10px;
+}
+
+.textarea-edit-product-name-class {
+  width: 399px;
+  height: 81px;
+}
+
+.cancel-button-edit-product {
+  background-color: #fff;
+  border-color: #17a2b8d1;
+  color: #17a2b8d1;
+  border-radius: 5px;
+  height: 35px;
+  width: 63px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.cancel-button-edit-product:hover {
+  background-color: #17a2b8d1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-button-edit-product {
+  background-color: #17a2b8d1;
+  border-color: #17a2b8d1;
+  color: #fff;
+  border-radius: 5px;
+  height: 35px;
+  width: 58px;
+  font-weight: bold;
+}
+
+.edit-button-edit-product:hover {
+  background-color: #25656e;
+  border-color: #25656e;
+  cursor: pointer;
+}
+
+.edit-remove-img-button {
+  cursor: pointer;
+}
+
+.remove-image-icon-edit {
+  width: 30px;
+  height: 30px;
+}
+
+.remove-image-button-edit {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+  float: right;
+}
+
+.image-edit-container {
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.file-input-edit-product-name-class {
+  width: 127px;
+  height: 125px;
+  margin: 10px;
+}
+
+.input-edit-product-name-img-class {
+  margin: 10px;
+}
+
+.edit-add-new-img-button {
+  margin-top: 10px;
+}
+/* ***************************************************************************************************************************** */
+
+/* continue without saving modal */
+
+/* The Modal (background) */
+.continue-without-saving-edit-modal-class {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.1); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.continue-without-saving-edit-modal-content {
+  background-color: #fefefe;
+  margin: 10% auto auto auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 537px;
+  height: 221px;
+  border-radius: 5px;
+}
+
+.yes-button-continue-without-saving-edit {
+  background-color: #fff;
+  border-color: #17a2b8d1;
+  color: #17a2b8d1;
+  border-radius: 5px;
+  height: 35px;
+  width: 63px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.yes-button-continue-without-saving-edit:hover {
+  border-color: #ff0101;
+  color: #ff0101;
+  cursor: pointer;
+}
+
+.no-button-continue-without-saving-edit {
+  background-color: #17a2b8d1;
+  border-color: #17a2b8d1;
+  color: #fff;
+  border-radius: 5px;
+  height: 35px;
+  width: 58px;
+  font-weight: bold;
+}
+
+.no-button-continue-without-saving-edit:hover {
+  background-color: #25656e;
+  border-color: #25656e;
+  cursor: pointer;
+}
+
+/* ***********************************************************Response Message Modal****************************************************************** */
+
+/* The Modal (background) */
+.response-message-edit-modal-class {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 720px;
+  top: 685px;
+  width: 100%;
+  height: 116%;
+  overflow: auto;
+}
+
+/* Modal Content */
+.response-message-edit-modal-content {
+  background-color: #ffffff;
+  margin: 10% auto auto auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 390px;
+  height: 47px;
+  border-left-width: 8px;
+  border-left-style: solid;
+  border-left-color: #6ac259;
+  border-radius: 4px;
+}
+
+/* The Close Button */
+.response-message-edit-modal-close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 3px;
+}
+
+.response-message-edit-modal-close:hover,
+.response-message-edit-modal-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
