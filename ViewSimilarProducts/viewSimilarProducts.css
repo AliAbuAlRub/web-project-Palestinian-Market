@@ -1,0 +1,41 @@
+.similar-product-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+  margin-left: 407px;
+  margin-right: 390px;
+  margin-bottom: 20px;
+  width: 158px;
+}
+
+.similar-product-content {
+  margin-left: 30px;
+}
+
+.view-similar-product-img {
+  align-self: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: 3px solid black;
+border-radius: 5px;
+}
+
+.similar-product-content > p {
+  color:#ccc;
+  text-align: center;
+  margin-top: 7px;
+  text-overflow: ellipsis;
+  width: 153px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-left: 9px;
+}
+
+.view-similar-product-price {
+  text-align: center;
+  font-weight: 500;
+  color: black;
+  margin-top: -12px;
+  margin-bottom: 14px;
+  border-radius: 5px;
+}
