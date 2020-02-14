@@ -1,0 +1,63 @@
+.search-results-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 76px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.search-results-text-content {
+    margin-left: 10px;
+}
+
+.search-results-text-content >h4 {
+    margin-top: 2px;
+}
+
+.search-result-price {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.search-results-image {
+    float: left;
+    width: 150px;
+    height: 158px;
+    margin-right: 16px;
+    border: 1px solid black;
+
+}
+
+.per-element-search-result {
+    margin-top: 20px;
+}
+
+.search-result-add-to-cart-button {
+    display: block;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    background-color: default;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    height: 30px;
+    outline: none;
+    margin-top: 32px;
+}
+
+.search-result-add-to-cart-button:hover {
+    background-color: #d32f2f;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filter-by-price {
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.no-search-results-found {
+    text-align: center;
+    font-size: 31px;
+}
