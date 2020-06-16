@@ -3,6 +3,7 @@ if (document.readyState == "loading") {
 } else {
   //delete comment
   ready();
+  // /dasdasda
 }
 
 function ready() {
