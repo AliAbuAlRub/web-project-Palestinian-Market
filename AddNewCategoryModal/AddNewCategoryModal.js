@@ -1,7 +1,7 @@
 if (document.readyState == "loading") {
   document.addEventListener("DOMContentLoaded", ready);
 } else {
-  //delete comment
+  //delete commentsssdasd
   ready();
 }
 
